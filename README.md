@@ -50,8 +50,7 @@ pod 'LzmaSDK-ObjC', :inhibit_warnings => true
 
 ## 第四步：
            
-导入配置文件 #import “LazyWebViewNavBarModel.h”，#import“LazyWebViewController.h”
-           所有的配置都在这个model中，传入定义好的参数即可
+导入配置文件 #import “LazyWebViewNavBarModel.h”，#import“LazyWebViewController.h”。所有的配置都在LazyWebViewNavBarModel这个model中，传入定义好的参数即可
 
 ```html
   LazyWebViewController *wkVC = [[LazyWebViewController alloc] init];
