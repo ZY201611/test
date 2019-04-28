@@ -7,10 +7,10 @@
 ## https配置
 
 1、<key>NSAppTransportSecurity</key>
-<dict>
- <key>NSAllowsArbitraryLoads</key>
- <true/>
-</dict>
+     <dict>
+       <key>NSAllowsArbitraryLoads</key>
+       <true/>
+     </dict>
          
  2、Build Phases(Build Phases->Link Binary With Libraries)
 导入   JavaScriptCore.framework，SystemConfiguration.framework
