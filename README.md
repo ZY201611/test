@@ -46,7 +46,7 @@ Podfile中需要导入的文件
 详细的请参考:DEMO
 
 如果右边NavigationBar，需要配置LazyWebViewNavBarModel中rightTitles这个属性，这个值是数组，当只有一个值的时候，是右边只有一个navigationBar,当有两个以上，右边就会显示更多，点击更多，会展开，显示对应的值，会通过代理方法传出来。效果图如下：
-![效果图](1)(2)
+![效果图](1.png)(2.png)
 
 
 
