@@ -47,6 +47,7 @@ Podfile中需要导入的文件
 ![1234.png]
 
 
+
 ## API
 
 在Appdelegate中： #import “LazyWebViewManager.h”  //导入
