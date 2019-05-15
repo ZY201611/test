@@ -44,8 +44,8 @@ Podfile中需要导入的文件
 ## DEMO
 
 详细的请参考:DEMO
+![1234.png]
 
-1234.png
 
 ## API
 
