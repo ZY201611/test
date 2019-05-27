@@ -97,6 +97,8 @@ LazyWebViewController
 | urlStr  | 是  | 链接的url   远端的或者本地的HTML  |
 | navConfigurateModel  | 否  | 配置文件对应的model  |
 
+注意：如果想使用html中解析到的颜色，设置navitionBar背景色，就不要设置navBackgroundColor传这个颜色值（重要）
+
 ### 体系结构（包含哪些主要的类）
 
 1、LazyWebView ：WKWebView类，js交互的都在这个类中。
