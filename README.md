@@ -97,7 +97,8 @@ LazyWebViewController
 | urlStr  | 是  | 链接的url   远端的或者本地的HTML  |
 | navConfigurateModel  | 否  | 配置文件对应的model  |
 
-注意：如果想使用html中解析到的颜色，设置navitionBar背景色，就不要设置navBackgroundColor传这个颜色值（重要）
+注意：   1、如果想使用html中解析到的颜色，设置navitionBar背景色，就不要设置navBackgroundColor传这个颜色值（重要）
+	2、如果进入web界面前，状态栏不是白色。进入web后，发现状态栏是白色的，返回上一个界面的时候，需要在自己的页面里把状态栏自己改成自己需要的颜色。
 
 ### 体系结构（包含哪些主要的类）
 
