@@ -76,7 +76,7 @@ LazyWebViewNavBarModel
 | 参数  | 描述  |
 | ------------ | ------------ |
 | hiddenNavigationBar  | 是不是显示WebView的NavigationBar  默认是显示  传入YES是隐藏  |
-| navBackgroundColor  | WebView的NavigationBar背景色颜色  |
+| navBackgroundColor  | WebView的NavigationBar背景色颜色，是一个字符串,这是一个#FFFFFF80这种格式前面7位代表颜色值，后面两位代表透明度，设置的时候请满足这个规则，如果没有透明度，后面两位可以不用给，直接给#FFFFFF  |
 | lineColor  | WebView中加载进度条的颜色  |
 | leftNavTitle  | WebView的左边的navigationBar是文字的  |
 | leftNavTitleColor  | WebView的左边的navigationBar文字的颜色  ,  这个必须左边是文字的时候，设置才会有效  |
